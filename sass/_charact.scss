@@ -11,6 +11,7 @@
     }
     @include version(tablet-only) {
       flex-wrap: wrap;
+      margin: 0 -15px 0 -15px;
     }
     @include version(desktop) {
     }
@@ -80,8 +81,9 @@
   }
   @include version(tablet-only) {
     flex-basis: calc((100%-30px) / 2);
+    margin: 0 15px 0 15px;
     &:nth-child(2n + 1) {
-      margin-right: 30px;
+      margin-left: 0px;
     }
   }
 }
