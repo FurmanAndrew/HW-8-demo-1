@@ -1,0 +1,6 @@
+.section {
+  @include version(tablet) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
